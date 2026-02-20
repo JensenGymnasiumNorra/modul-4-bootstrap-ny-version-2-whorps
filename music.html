@@ -3,38 +3,111 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Music</title>
+    <title>Musik</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   </head>
 
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="movies.html">Movies</a></li>
-          <li><a href="series.html">Series</a></li>
-          <li><a href="music.html">Music</a></li>
-        </ul>
-      </nav>
-    </header>
+    <header></header>
 
     <main>
-      <p>Artist 1</p>
-      <p>Bästa låt:</p>
-      <p>Antal album:</p>
+      <section class="bg-success bg-opacity-10 py-5 border-bottom border-success">
+        <div class="container">
+          <h1 class="display-5 fw-bold text-success mb-2">🎵 Mina Favoritartister</h1>
+          <p class="lead text-muted">Utforska mina tre mest rekommenderade artister med information om deras bästa låtar och antal album.</p>
+        </div>
+      </section>
 
-      <p>Artist 2</p>
-      <p>Bästa låt:</p>
-      <p>Antal album:</p>
+      <section class="py-5">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card h-100 shadow-sm border-0 overflow-hidden">
+                <img src="The beatles.jpg" class="card-img-top img-fluid" alt="The Beatles" style="height: 300px; object-fit: cover;">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title fw-bold text-success">The Beatles</h5>
+                  <div class="flex-grow-1 mb-3">
+                    <p class="mb-2"><strong>🎵 Bästa låt:</strong></p>
+                    <p class="text-muted">Hey Jude</p>
+                    <p class="mb-0"><strong>📀 Album:</strong></p>
+                    <p class="text-muted"><span class="badge bg-success">13 studioalbum</span></p>
+                  </div>
+                  <a href="https://open.spotify.com/artist/3WrFJ7ztbogyc2K8NX5zN8" class="btn btn-success mt-auto" target="_blank" rel="noopener">🎵 Spotify</a>
+                </div>
+              </div>
+            </div>
 
-      <p>Artist 3</p>
-      <p>Bästa låt:</p>
-      <p>Antal album:</p>
+            <div class="col-md-4">
+              <div class="card h-100 shadow-sm border-0 overflow-hidden">
+                <img src="Beyonce.jpg" class="card-img-top img-fluid" alt="Beyoncé" style="height: 300px; object-fit: cover;">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title fw-bold text-success">Beyoncé</h5>
+                  <div class="flex-grow-1 mb-3">
+                    <p class="mb-2"><strong>🎵 Bästa låt:</strong></p>
+                    <p class="text-muted">Single Ladies (Put a Ring on It)</p>
+                    <p class="mb-0"><strong>📀 Album:</strong></p>
+                    <p class="text-muted"><span class="badge bg-success">7 studioalbum</span></p>
+                  </div>
+                  <a href="https://open.spotify.com/artist/6vWDO969PvNqNYHIOW5v0m" class="btn btn-success mt-auto" target="_blank" rel="noopener">🎵 Spotify</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card h-100 shadow-sm border-0 overflow-hidden">
+                <img src="Radiohead.jpg" class="card-img-top img-fluid" alt="Radiohead" style="height: 300px; object-fit: cover;">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title fw-bold text-success">Radiohead</h5>
+                  <div class="flex-grow-1 mb-3">
+                    <p class="mb-2"><strong>🎵 Bästa låt:</strong></p>
+                    <p class="text-muted">Karma Police</p>
+                    <p class="mb-0"><strong>📀 Album:</strong></p>
+                    <p class="text-muted"><span class="badge bg-success">9 studioalbum</span></p>
+                  </div>
+                  <a href="https://open.spotify.com/artist/4Z8W4fKeB5YxbusRYgSXUK" class="btn btn-success mt-auto" target="_blank" rel="noopener">🎵 Spotify</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Music Facts Section -->
+      <section class="bg-light py-5">
+        <div class="container">
+          <h2 class="text-center mb-4 fw-bold text-success">Varför dessa artister?</h2>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h5 class="card-title text-success">🎸 Ikoniska Grupper</h5>
+                  <p class="card-text text-muted">The Beatles och Radiohead representerar diferentes era av rockmusik med innovativ komposition och tidslös musik.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h5 class="card-title text-success">👑 Moderna Superstjärnor</h5>
+                  <p class="card-text text-muted">Beyoncé är en av de mest inflytelserika artisterna i modern musik med fenomenal sångförmåga och scenrenering.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h5 class="card-title text-success">🎶 Experimentell Musik</h5>
+                  <p class="card-text text-muted">Dessa artister pushar gränserna för vad musik kan vara och inspirerar på generationerna med sin kreativitet.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer>
-      <p>© 2026</p>
-    </footer>
+
+    <footer></footer>
+
     <script src="init.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
